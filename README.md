@@ -1,11 +1,9 @@
-
-deb http://mirrors.163.com/ubuntu/ wily main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ wily-security main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ wily-updates main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ wily-proposed main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ wily-backports main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ wily main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ wily-security main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ wily-updates main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ wily-proposed main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ wily-backports main restricted universe multiverse
+# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
